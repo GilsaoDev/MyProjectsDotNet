@@ -1,0 +1,214 @@
+﻿++Solução 'Kanban.API' ‎(1 de 1 projeto)
+i:{00000000-0000-0000-0000-000000000000}:Kanban.API.sln
+++Kanban.API
+i:{00000000-0000-0000-0000-000000000000}:Kanban.API
+++Connected Services 
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>193
+++Dependências
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>192
+++Properties
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\properties\
+++Data
+++AppDbContext.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\context\appdbcontext.cs
+++Endpoints
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\endpoints\
+++CardEndpoints.cs
+++Migrations
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\migrations\
+++Models
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\models\
+++Card.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\models\card.cs
+++Usuario.cs
+++Repository
+++UsuarioRepository.cs
+++Services
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\services\
+++TokenServices.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\services\tokenservices.cs
+++ViewModels
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\viewmodels\
+++appsettings.json
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\appsettings.json
+++kanban.db
+++kanban.db-shm
+++kanban.db-wal
+++Program.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\program.cs
+++Settings.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\settings.cs
+++Nenhuma dependência de serviço descoberta
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>194
+++Analisadores
+i:{347934f5-e219-4233-8812-2d29afa0791b}:analisadores
+++Estruturas
+i:{347934f5-e219-4233-8812-2d29afa0791b}:estruturas
+++Pacotes
+i:{347934f5-e219-4233-8812-2d29afa0791b}:pacotes
+++launchSettings.json
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\properties\launchsettings.json
+++20220321225306_InitialCreation.cs
+++AppDbContextModelSnapshot.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\migrations\appdbcontextmodelsnapshot.cs
+++CreateCardViewModel.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\viewmodels\createcardviewmodel.cs
+++appsettings.Development.json
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\users\gilsonsilva\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\microsoft.netcore.app
+++Flunt (2.0.5)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1240
+++Microsoft.AspNetCore.Authentication (2.2.0)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1242
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.3)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1243
+++Microsoft.EntityFrameworkCore.Design (6.0.3)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1244
+++Microsoft.EntityFrameworkCore.Sqlite (6.0.3)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1241
+++Swashbuckle.AspNetCore (6.3.0)
+i:{347934f5-e219-4233-8812-2d29afa0791b}:>1245
+++20220321225306_InitialCreation.Designer.cs
+++Context
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\context\
+++CardsEndpoints.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\endpoints\cardsendpoints.cs
+++NovaPasta
+++DTOs
+++CardInput.cs
+++CardOutput.cs
+++UpdateCardViewModel.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\viewmodels\updatecardviewmodel.cs
+++20220323055427_InitialMigration.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\migrations\20220323055427_initialmigration.cs
+++20220323055427_InitialMigration.Designer.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\migrations\20220323055427_initialmigration.designer.cs
+++UserModel.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\models\usermodel.cs
+++ITokenService.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\services\itokenservice.cs
+++AppServicesExtensions
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\appservicesextensions\
+++ApplicationBuilderExtensions.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\appservicesextensions\applicationbuilderextensions.cs
+++ServiceCollectionExtensions.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\appservicesextensions\servicecollectionextensions.cs
+++AutenticacaoEndpoints.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\endpoints\autenticacaoendpoints.cs
+++BACK
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\
+++bin
+++obj
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\
+++Debug
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\
+++Kanban.API.csproj.EntityFrameworkCore.targets
+++Kanban.API.csproj.nuget.dgspec.json
+++Kanban.API.csproj.nuget.g.props
+++Kanban.API.csproj.nuget.g.targets
+++project.assets.json
+++project.nuget.cache
+++staticwebassets.pack.sentinel
+++net6.0
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\
+++runtimes
+++Flunt.dll
+++Humanizer.dll
+++Kanban.API.deps.json
+++Kanban.API.dll
+++Kanban.API.exe
+++Kanban.API.pdb
+++Kanban.API.runtimeconfig.json
+++Microsoft.AspNetCore.Authentication.JwtBearer.dll
+++Microsoft.Data.Sqlite.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+++Microsoft.EntityFrameworkCore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+++Microsoft.EntityFrameworkCore.Sqlite.dll
+++Microsoft.Extensions.Caching.Memory.dll
+++Microsoft.Extensions.DependencyModel.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+++Microsoft.IdentityModel.Logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+++Microsoft.OpenApi.dll
+++SQLitePCLRaw.batteries_v2.dll
+++SQLitePCLRaw.core.dll
+++SQLitePCLRaw.provider.e_sqlite3.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+++System.IdentityModel.Tokens.Jwt.dll
+++System.Security.Permissions.dll
+++ref
+++refint
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+++Kanban.API.AssemblyInfo.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\kanban.api.assemblyinfo.cs
+++Kanban.API.AssemblyInfoInputs.cache
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\kanban.api.assemblyinfoinputs.cache
+++Kanban.API.assets.cache
+++Kanban.API.csproj.AssemblyReference.cache
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\kanban.api.csproj.assemblyreference.cache
+++Kanban.API.csproj.BuildWithSkipAnalyzers
+++Kanban.API.csproj.CopyComplete
+++Kanban.API.csproj.CoreCompileInputs.cache
+++Kanban.API.csproj.FileListAbsolute.txt
+++Kanban.API.GeneratedMSBuildEditorConfig.editorconfig
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\kanban.api.generatedmsbuildeditorconfig.editorconfig
+++Kanban.API.genruntimeconfig.cache
+++Kanban.API.GlobalUsings.g.cs
+i:{347934f5-e219-4233-8812-2d29afa0791b}:c:\dev\kanban.api\back\obj\debug\net6.0\kanban.api.globalusings.g.cs
+++Kanban.API.MvcApplicationPartsAssemblyInfo.cache
+++Kanban.API.MvcApplicationPartsAssemblyInfo.cs
+++staticwebassets.build.json
+++alpine-x64
+++linux-arm
+++linux-arm64
+++linux-armel
+++linux-mips64
+++linux-musl-x64
+++linux-s390x
+++linux-x64
+++linux-x86
+++osx-arm64
+++osx-x64
+++win-arm
+++win-arm64
+++win-x64
+++win-x86
+++native
+++libe_sqlite3.so
+++libe_sqlite3.dylib
+++e_sqlite3.dll
