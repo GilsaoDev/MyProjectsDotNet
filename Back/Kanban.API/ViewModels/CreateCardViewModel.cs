@@ -10,7 +10,7 @@ namespace Kanban.API.ViewModels
         public string Conteudo { get; set; }
         public string Lista { get; set; }
 
-        public Card MapTo(int idCard)
+        public Card MapTo()//int idCard)
         {
             AddNotifications(new Contract<Notification>()
                 .Requires()
@@ -28,7 +28,7 @@ namespace Kanban.API.ViewModels
                 .IsGreaterThan(Lista, 3, "O nome da Lista deve conter mais de 3 caracteres"));
 
             return new Card(){
-                Id = idCard,
+                //Id = idCard,
                 Titulo = Titulo,
                 Conteudo = Conteudo,
                 Lista = Lista

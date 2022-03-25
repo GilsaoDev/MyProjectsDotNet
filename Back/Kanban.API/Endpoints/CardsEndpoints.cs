@@ -10,9 +10,9 @@ namespace Kanban.API.ApiEndpoints
     {
         public static void MapCardsEndpoints(this WebApplication app)
         {            
-
+            
             app.MapGet("0.0.0:5000/cards", async (AppDbContext db) =>
-               await db.Cards.ToListAsync()).WithTags("Cards").RequireAuthorization();
+               await db.Cards.ToListAsync()).WithTags("Cards");
 
             app.MapGet("0.0.0:5000/cards/{id:int}", async (int id, AppDbContext db)
                 =>
@@ -26,17 +26,17 @@ namespace Kanban.API.ApiEndpoints
             app.MapPost("0.0.0:5000/cards", async (CreateCardViewModel createCardViewModel, AppDbContext db)
                 =>
             {
-                var lastCard = db.Cards.Last<Card>();
-                int newIdCard = (lastCard != null) ? (lastCard.Id + 1) : 1;
+                //var lastCard = db.Cards.Last<Card>();
+                //int newIdCard = (lastCard != null) ? (lastCard.Id + 1) : 1;
 
-                var newCard = createCardViewModel.MapTo(newIdCard);
+                var newCard = createCardViewModel.MapTo();
                 if (!createCardViewModel.IsValid)
                     return Results.BadRequest(createCardViewModel.Notifications);
 
                 db.Cards.Add(newCard);
                 await db.SaveChangesAsync();
 
-                return Results.Created($"0.0.0:5000/cards/{newIdCard}", newCard);
+                return Results.Created($"0.0.0:5000/cards/{newCard.Id}", newCard);
             });
 
             app.MapPut("0.0.0:5000/cards/{id:int}", async (int id, UpdateCardViewModel updateCardViewModel, AppDbContext db) 

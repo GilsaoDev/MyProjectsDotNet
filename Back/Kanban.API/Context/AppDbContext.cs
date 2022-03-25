@@ -16,7 +16,7 @@ namespace Kanban.API.Context
         public DbSet<Card> Cards { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite("ContextSource=kanban.db;Cache=Shared");
+            => options.UseSqlite("Data Source=kanban.db;Cache=Shared");
 
 
 
