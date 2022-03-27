@@ -22,6 +22,7 @@
             });
             return app;
         }
+
         public static IApplicationBuilder UseSwaggerMiddleware(this IApplicationBuilder app)
         {
             app.UseSwagger();

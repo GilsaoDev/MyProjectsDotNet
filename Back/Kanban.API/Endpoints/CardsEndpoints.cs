@@ -12,7 +12,7 @@ namespace Kanban.API.ApiEndpoints
         {            
             
             app.MapGet("0.0.0:5000/cards", async (AppDbContext db) =>
-               await db.Cards.ToListAsync()).WithTags("Cards");
+               await db.Cards.ToListAsync()).WithTags("Cards").RequireAuthorization();
 
             app.MapGet("0.0.0:5000/cards/{id:int}", async (int id, AppDbContext db)
                 =>
@@ -21,7 +21,7 @@ namespace Kanban.API.ApiEndpoints
                              is Card card
                              ? Results.Ok(card)
                              : Results.NotFound();
-            });
+            }).WithTags("Cards");
 
             app.MapPost("0.0.0:5000/cards", async (CreateCardViewModel createCardViewModel, AppDbContext db)
                 =>
@@ -37,7 +37,7 @@ namespace Kanban.API.ApiEndpoints
                 await db.SaveChangesAsync();
 
                 return Results.Created($"0.0.0:5000/cards/{newCard.Id}", newCard);
-            });
+            }).WithTags("Cards");
 
             app.MapPut("0.0.0:5000/cards/{id:int}", async (int id, UpdateCardViewModel updateCardViewModel, AppDbContext db) 
                 =>
@@ -59,7 +59,7 @@ namespace Kanban.API.ApiEndpoints
                 await db.SaveChangesAsync();
 
                 return Results.Ok(cardUpdated);
-            });
+            }).WithTags("Cards");
 
             app.MapDelete("0.0.0:5000/cards/{id:int}", async (int id, AppDbContext db) 
                 =>
@@ -91,7 +91,7 @@ namespace Kanban.API.ApiEndpoints
                     return Results.Problem(problemDetails);
                 }
                 return Results.NoContent();
-            });
+            }).WithTags("Cards");
         }
     }
 }

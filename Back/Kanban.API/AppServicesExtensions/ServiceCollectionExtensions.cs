@@ -49,13 +49,15 @@ namespace Kanban.API.AppServicesExtensions
             });
             return services;
         }
+         
 
-        public static WebApplicationBuilder AddTokenRegister(
-             this WebApplicationBuilder builder)
-        {         
+        public static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder) 
+        {
+            builder.Services.AddDbContext<AppDbContext>();
 
             builder.Services.AddSingleton<ITokenService>(new TokenService());
             return builder;
+
         }
 
         public static WebApplicationBuilder AddAutenticationJwt(this WebApplicationBuilder builder)
