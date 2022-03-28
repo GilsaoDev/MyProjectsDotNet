@@ -5,6 +5,7 @@ O propósito desse desafio é a criação de uma API que fará a persistência d
 
 A API foi feita em c# usando .net core 6.0 com a implementanção do padrão MinimalAPI.
 Para executar os Endpoints siga os passos: 
+
 1- Após dar um baixar o projeto em uma pasta local. No cmd, na pasta do projeto execute:
 
  - dotnet build 
