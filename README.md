@@ -8,10 +8,11 @@ Para executar os Endpoints siga os passos:
 
 1- Após clonar o repositório Projeto_Kanban, via CLI acesse a pasta da API, construa e execute o projeto:
  
-Comandos no Console: 
- 1.1 cd Projeto_Kanban/Back/Kanban.API/
- 1.2 dotnet build 
- 1.3 dotnet run
+Comandos no Console:
+
+ 1.1 - cd Projeto_Kanban/Back/Kanban.API/
+ 1.2 - dotnet build 
+ 1.3 - dotnet run
 
 2- Após executar a API, será aberto o SwaggerUI no navegador. Realize a autenticação no SwaggerUI com o Endpoint: Autenticacao (AutenticacaoEndpoints). No corpo do método insira as informações conforme abaixo:
 
