@@ -7,8 +7,8 @@ A API foi feita em c# usando .net core 6.0 com a implementanção do padrão Min
 Para executar os Endpoints siga os passos: 
 1- Após dar um baixar o projeto em uma pasta local. No cmd, na pasta do projeto execute:
 
->> dotnet build 
->> dotnet run
+> dotnet build 
+> dotnet run
 
 2- Após executar a API, será aberto o SwaggerUI no navegador. Realize a autenticação no SwaggerUI com o Endpoint: Autenticacao (AutenticacaoEndpoints). No corpo do método insira as informações conforme abaixo:
 
