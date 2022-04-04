@@ -4,6 +4,10 @@ Desafio Técnico - Backend
 O propósito desse desafio é a criação de uma API que fará a persistência de dados de um quadro de kanban. Esse quadro possui listas, que contém cards.
 
 A API foi feita em c# usando .net core 6.0 com a implementanção do padrão MinimalAPI.
+
+O recurso do .NET 6.0 - Minimal APIs - para a ASP .NET Core 6, permite criar APIs com o mínimo de dependência do framework WebAPI e o mínimo de código e arquivos necessários para o desenvolvimento minimalista de APIs.
+
+
 Para executar os Endpoints siga os passos: 
 
 1- Após clonar o repositório Projeto_Kanban, via CLI acesse a pasta da API, construa e execute o projeto:
